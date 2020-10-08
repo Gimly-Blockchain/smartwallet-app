@@ -14,6 +14,7 @@ module.exports = {
       stream: require.resolve('stream-browserify'),
       vm: require.resolve('vm-browserify'),
       src: __dirname + '/src',
+      ws: __dirname + '/src/lib/ws',
     },
   },
   transformer: {
